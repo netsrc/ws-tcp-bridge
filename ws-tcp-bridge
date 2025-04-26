@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var ws_module = require('ws');
+var ws_module = require('wss');
 var net = require('net');
 
 var argv = require('optimist')
